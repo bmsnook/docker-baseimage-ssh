@@ -1,6 +1,6 @@
 # I know I should attach to a particular revision... but
 # let's just ride on *latest* for the time being.
-FROM phusion/baseimage:latest
+FROM phusion/baseimage:noble-1.0.0
 
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
